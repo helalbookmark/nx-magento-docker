@@ -10,7 +10,7 @@ app:
     - appdata
   ports:
 #   - 8000:80
-    - 8000:80
+    - 80:80
 
 appdata:
   image: tianon/true
@@ -64,7 +64,7 @@ setup:
     - M2SETUP_ADMIN_EMAIL=dummy@gmail.com
     - M2SETUP_ADMIN_USER=magento2
     - M2SETUP_ADMIN_PASSWORD=magento2
-    - M2SETUP_VERSION=2.1.0
+    - M2SETUP_VERSION=2.1.3
     - M2SETUP_USE_SAMPLE_DATA=true
     - M2SETUP_USE_ARCHIVE=true
 
