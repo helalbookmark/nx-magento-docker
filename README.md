@@ -6,7 +6,7 @@ nx-magento-docker
 
 ```
 //setup
-docker-compose up -d app
+docker-compose run --rm setup
 
 //run 
 docker-compose up -d app
