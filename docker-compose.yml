@@ -22,7 +22,7 @@ appdata:
 #    - ./www/app/design:/srv/www/app/design
 
 phpfpm:
-  image: mageinferno/magento2-php:7.0.8-fpm-3
+  image: mageinferno/magento2-php:7.0-fpm-0
   links:
     - db
   volumes_from: [ appdata ]
@@ -46,7 +46,7 @@ dbdata:
     - ./data:/var/lib/mysql
 
 setup:
-  image: mageinferno/magento2-php:7.0.8-fpm-3
+  image: mageinferno/magento2-php:7.0-fpm-0
   command: /usr/local/bin/mage-setup
   links:
     - db
