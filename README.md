@@ -3,6 +3,14 @@ nx-magento-docker
 
 
 
+
+```
+//setup
+docker-compose up -d app
+
+//run 
+docker-compose up -d app
+```
 <hr>
 
 This docker-compose.yml file is provided by Mage Inferno
